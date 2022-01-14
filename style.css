@@ -1,0 +1,43 @@
+
+.container{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 40vw;
+    width: 40vw;
+    background-image: url(blank-clock.png);
+    background-size: 100%;
+  margin: auto;
+ 
+}
+#hour{
+    position: absolute;
+    background-color: black;
+    width: 2.5%;
+    height: 23%;
+    margin-left: 49%;
+    margin-top: 28%;
+    transform-origin: bottom;
+
+}
+
+#minute{
+    background-color: black;
+    position: absolute;
+    width: 1.5%;
+    height: 30%;
+    margin-left: 49.5%;
+    margin-top: 21%;  
+    transform-origin: bottom;
+
+ }
+ #second{
+     background-color: black;
+    position: absolute;
+    width: 0.5%;
+    height: 35%;
+    margin-left: 50%;
+    margin-top: 16%;
+    transform-origin: bottom;
+
+
+ }
